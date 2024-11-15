@@ -1,0 +1,28 @@
+/* Section Estimation */
+.hero-section {
+    background: url('image/photo-bandeau.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.bg-dark-transparent {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hero-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+label {
+    font-size: 0.875rem;
+    color: #fff;
+}
+
+.form-control {
+    background-color: #fff;
+    color: #333;
+}

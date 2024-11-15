@@ -1,0 +1,82 @@
+/* Responsive Adjustments for Right Section */
+@media (max-width: 768px) {
+
+    .right-section,
+    .certifications {
+        margin-top: 20px;
+    }
+}
+
+.container .row>div {
+    padding: 15px;
+}
+
+.container .row img {
+    width: 70%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.container p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.container strong {
+    color: #000000;
+    font-weight: bold;
+}
+
+.list-unstyled li {
+    font-size: 0.87rem;
+    color: #555;
+}
+
+.list-unstyled li::before {
+    color: #00a0b6;
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-8 {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+}
+
+.extra-margin {
+    margin-right: 20px;
+}
+
+
+.col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+
+.row.mt-4 .col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+
+.container .row>div {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #ff7700;
+}

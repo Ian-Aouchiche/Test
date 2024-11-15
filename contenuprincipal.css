@@ -1,0 +1,39 @@
+/* Section Contenu Principal */
+.text-primary {
+    color: #007bff;
+}
+
+.container h2 {
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+.container h3 {
+    font-size: 1.5rem;
+    color: #f80000;
+}
+
+.container p {
+    line-height: 1.6;
+}
+
+
+.cust li {
+    color: #100e0d !important;
+}
+
+/* Galerie d'Images */
+.veranda-images img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
